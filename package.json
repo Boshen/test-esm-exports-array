@@ -1,0 +1,14 @@
+{
+  "name": "test-esm-exports-array",
+  "devDependencies": {
+    "enhanced-resolve": "^5.15.0",
+    "esbuild": "^0.19.10"
+  },
+  "exports": {
+    ".": [
+      "-bad-specifier-",
+      "./non-existent.js",
+      "./existent.js"
+    ]
+  }
+}
